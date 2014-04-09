@@ -13,12 +13,14 @@ Learning F#
  - [http://www.tryfsharp.org/](http://www.tryfsharp.org/)
  - [http://en.wikibooks.org/wiki/Programming:F_Sharp](http://en.wikibooks.org/wiki/Programming:F_Sharp)
  - [F# Language Reference (MSDN)](http://msdn.microsoft.com/en-us/library/dd233181.aspx)
+ - [Why FSharp?](http://fpbridge.co.uk/why-fsharp.html)
 
 Trying out F#
 ---
 
  - [http://www.tryfsharp.org/](http://www.tryfsharp.org/)
  - [http://dotnetfiddle.net/](http://dotnetfiddle.net/)
+ - [http://fssnip.net/](http://fssnip.net/)
 
 Community People to Follow
 ---
