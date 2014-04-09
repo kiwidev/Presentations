@@ -24,6 +24,8 @@ Trying out F#
 
 Community People to Follow
 ---
+*There is a lot of activity on Twitter at the moment. Start with Don Syme and follow the retweet action*
+
  - @dsyme
  - @tomaspetricek
  - @ptrelford
@@ -49,5 +51,6 @@ Fun Projects
 
  - Primary GitHub repo [https://github.com/fsharp/](https://github.com/fsharp/)
      - FAKE [https://github.com/fsharp/FAKE](https://github.com/fsharp/FAKE)
+ - Canopy [https://github.com/lefthandedgoat/canopy](https://github.com/lefthandedgoat/canopy)
  - FSProjects [https://github.com/fsprojects/](https://github.com/fsprojects/)
  - [Erasing SQL Type Provider](http://www.pinksquirrellabs.com/post/2013/12/09/The-Erasing-SQL-type-provider.aspx)

@@ -1,4 +1,9 @@
-﻿
+﻿//
+// Inspired by FSharpForFunAndProfit series (http://fsharpforfunandprofit.com)
+// by Scott Wlaschin
+// See http://fsharpforfunandprofit.com/posts/recipe-part2/ for many more details
+// and a great explanation.
+//
 
 type MyDbEntity = { Id: int; First:string; Last: string; Age: int}
 type MyInput = { First:string; Last: string; Age: int}
