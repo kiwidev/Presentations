@@ -1,7 +1,8 @@
 ﻿
 
-type MyInput = { First:string; Last: string; Age: int}
 type MyDbEntity = { Id: int; First:string; Last: string; Age: int}
+type MyInput = { First:string; Last: string; Age: int}
+
 
 type Result<'a> =
     | Success of 'a
@@ -16,7 +17,7 @@ let ValidateAllOfTheThings input =
 let SaveToDatabase input =
     match input.First |> Seq.toList with
     | 'A'::_ -> Failure "Your name started with 'a'"
-    | _ -> Success { First = input.First; Last = input.Last; Age = input.Age; Id = 45}
+    | _ -> Success { MyDbEntity.First = input.First; Last = input.Last; Age = input.Age; Id = 45}
 
 let EchoToUser result =
     match result with
@@ -35,3 +36,7 @@ let MyBusinessMethod input =
     >>= ValidateAllOfTheThings
     >>= SaveToDatabase
     |> EchoToUser
+
+
+// Usage
+MyBusinessMethod { First = "Fred";Last = "Dagg"; Age = 42 }
