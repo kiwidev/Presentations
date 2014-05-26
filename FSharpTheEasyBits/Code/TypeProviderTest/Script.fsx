@@ -10,11 +10,11 @@
 // Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
-#r "..\Lib\FSharp.Data.SqlProvider.dll"
+#r """packages\SQLProvider.0.0.9-alpha\lib\net40\FSharp.Data.SqlProvider.dll"""
 
 open FSharp.Data.Sql
 
-type sql = SqlDataProvider<"Data Source=localhost;Initial Catalog=Northwind;Integrated Security=true;">
+type sql = SqlDataProvider<"Data Source=(local);Initial Catalog=Northwind;Integrated Security=true;">
 
 let products = sql.GetDataContext().``[dbo].[Products]``
 
