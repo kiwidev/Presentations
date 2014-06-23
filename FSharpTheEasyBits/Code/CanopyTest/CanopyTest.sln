@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CanopyTest", "CanopyTest\CanopyTest.fsproj", "{A96F4C84-B72E-4E96-AF47-83C5141C07CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96F4C84-B72E-4E96-AF47-83C5141C07CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96F4C84-B72E-4E96-AF47-83C5141C07CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96F4C84-B72E-4E96-AF47-83C5141C07CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96F4C84-B72E-4E96-AF47-83C5141C07CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
